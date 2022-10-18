@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D03E8622753B16E00BE866A /* SPE.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D03E8612753B16E00BE866A /* SPE.png */; };
+		4D247F5D27011EB6004657B5 /* SPE_ControlApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D247F5C27011EB6004657B5 /* SPE_ControlApp.swift */; };
+		4D247F6127011EB7004657B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D247F6027011EB7004657B5 /* Assets.xcassets */; };
+		4D247F6427011EB7004657B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D247F6327011EB7004657B5 /* Preview Assets.xcassets */; };
+		4D5EC78727029671004ED474 /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5EC78627029671004ED474 /* Protocol.swift */; };
+		4D5EC78927029C8E004ED474 /* SPECommandCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5EC78827029C8E004ED474 /* SPECommandCodes.swift */; };
+		4D91023B2703E4CE009DF6F4 /* ScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D91023A2703E4CE009DF6F4 /* ScreenView.swift */; };
+		4D91023D2703E692009DF6F4 /* StatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D91023C2703E692009DF6F4 /* StatusView.swift */; };
+		4DBB2707270533F00029EE27 /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBB2706270533F00029EE27 /* Level.swift */; };
+		4DCA8A442701F4B400843C65 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCA8A432701F4B400843C65 /* Model.swift */; };
+		4DCE52FF27073F6F000D214D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE52FE27073F6F000D214D /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4D03E8612753B16E00BE866A /* SPE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SPE.png; path = ../SPE.png; sourceTree = "<group>"; };
+		4D1FD3A62703650C00289EB2 /* Sreen Data.pages */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sreen Data.pages"; sourceTree = "<group>"; };
+		4D1FD3A72703650C00289EB2 /* API Guide 1.3K 2K 1.1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "API Guide 1.3K 2K 1.1.pdf"; sourceTree = "<group>"; };
+		4D247F5927011EB6004657B5 /* SPE Control.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SPE Control.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D247F5C27011EB6004657B5 /* SPE_ControlApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPE_ControlApp.swift; sourceTree = "<group>"; };
+		4D247F6027011EB7004657B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D247F6327011EB7004657B5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4D247F6527011EB7004657B5 /* SPE_Control.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SPE_Control.entitlements; sourceTree = "<group>"; };
+		4D5EC78627029671004ED474 /* Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
+		4D5EC78827029C8E004ED474 /* SPECommandCodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPECommandCodes.swift; sourceTree = "<group>"; };
+		4D91023A2703E4CE009DF6F4 /* ScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenView.swift; sourceTree = "<group>"; };
+		4D91023C2703E692009DF6F4 /* StatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusView.swift; sourceTree = "<group>"; };
+		4D9665582736E28400922A0B /* SPE-Control-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "SPE-Control-Info.plist"; sourceTree = SOURCE_ROOT; };
+		4D979DDD2718582200EA5A49 /* poweron script.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "poweron script.pdf"; sourceTree = "<group>"; };
+		4D979DDE2718584C00EA5A49 /* ser2tcp-master.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "ser2tcp-master.zip"; sourceTree = "<group>"; };
+		4DBB2706270533F00029EE27 /* Level.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
+		4DCA8A432701F4B400843C65 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		4DCE52FE27073F6F000D214D /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4DE2703E2707247400B80C62 /* SPE Power On.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "SPE Power On.pdf"; sourceTree = "<group>"; };
+		4DEF82CD2718A05C004F0925 /* ser2tcp.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = ser2tcp.py; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D247F5627011EB6004657B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D1FD3A5270364B900289EB2 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				4D03E8612753B16E00BE866A /* SPE.png */,
+				4DEF82CD2718A05C004F0925 /* ser2tcp.py */,
+				4D979DDE2718584C00EA5A49 /* ser2tcp-master.zip */,
+				4D979DDD2718582200EA5A49 /* poweron script.pdf */,
+				4DE2703E2707247400B80C62 /* SPE Power On.pdf */,
+				4D1FD3A72703650C00289EB2 /* API Guide 1.3K 2K 1.1.pdf */,
+				4D1FD3A62703650C00289EB2 /* Sreen Data.pages */,
+			);
+			path = Documentation;
+			sourceTree = "<group>";
+		};
+		4D247F5027011EB6004657B5 = {
+			isa = PBXGroup;
+			children = (
+				4D1FD3A5270364B900289EB2 /* Documentation */,
+				4D247F5B27011EB6004657B5 /* SPE Control */,
+				4D247F5A27011EB6004657B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D247F5A27011EB6004657B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D247F5927011EB6004657B5 /* SPE Control.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D247F5B27011EB6004657B5 /* SPE Control */ = {
+			isa = PBXGroup;
+			children = (
+				4D9665582736E28400922A0B /* SPE-Control-Info.plist */,
+				4D247F5C27011EB6004657B5 /* SPE_ControlApp.swift */,
+				4DCE52FE27073F6F000D214D /* ContentView.swift */,
+				4DBB2706270533F00029EE27 /* Level.swift */,
+				4D91023C2703E692009DF6F4 /* StatusView.swift */,
+				4D5EC78627029671004ED474 /* Protocol.swift */,
+				4DCA8A432701F4B400843C65 /* Model.swift */,
+				4D5EC78827029C8E004ED474 /* SPECommandCodes.swift */,
+				4D91023A2703E4CE009DF6F4 /* ScreenView.swift */,
+				4D247F6027011EB7004657B5 /* Assets.xcassets */,
+				4D247F6527011EB7004657B5 /* SPE_Control.entitlements */,
+				4D247F6227011EB7004657B5 /* Preview Content */,
+			);
+			path = "SPE Control";
+			sourceTree = "<group>";
+		};
+		4D247F6227011EB7004657B5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4D247F6327011EB7004657B5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D247F5827011EB6004657B5 /* SPE Control */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D247F6827011EB7004657B5 /* Build configuration list for PBXNativeTarget "SPE Control" */;
+			buildPhases = (
+				4D247F5527011EB6004657B5 /* Sources */,
+				4D247F5627011EB6004657B5 /* Frameworks */,
+				4D247F5727011EB6004657B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SPE Control";
+			productName = "SPE Control";
+			productReference = 4D247F5927011EB6004657B5 /* SPE Control.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D247F5127011EB6004657B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					4D247F5827011EB6004657B5 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 4D247F5427011EB6004657B5 /* Build configuration list for PBXProject "SPE Control" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D247F5027011EB6004657B5;
+			productRefGroup = 4D247F5A27011EB6004657B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D247F5827011EB6004657B5 /* SPE Control */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D247F5727011EB6004657B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D03E8622753B16E00BE866A /* SPE.png in Resources */,
+				4D247F6427011EB7004657B5 /* Preview Assets.xcassets in Resources */,
+				4D247F6127011EB7004657B5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D247F5527011EB6004657B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DCA8A442701F4B400843C65 /* Model.swift in Sources */,
+				4DCE52FF27073F6F000D214D /* ContentView.swift in Sources */,
+				4DBB2707270533F00029EE27 /* Level.swift in Sources */,
+				4D91023B2703E4CE009DF6F4 /* ScreenView.swift in Sources */,
+				4D91023D2703E692009DF6F4 /* StatusView.swift in Sources */,
+				4D5EC78927029C8E004ED474 /* SPECommandCodes.swift in Sources */,
+				4D5EC78727029671004ED474 /* Protocol.swift in Sources */,
+				4D247F5D27011EB6004657B5 /* SPE_ControlApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4D247F6627011EB7004657B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4D247F6727011EB7004657B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		4D247F6927011EB7004657B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = SPE;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "SPE Control/SPE_Control.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SPE Control/Preview Content\"";
+				DEVELOPMENT_TEAM = 566Y4FXUU7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SPE-Control-Info.plist";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.microenh.SPE-Control";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4D247F6A27011EB7004657B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = SPE;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "SPE Control/SPE_Control.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SPE Control/Preview Content\"";
+				DEVELOPMENT_TEAM = 566Y4FXUU7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SPE-Control-Info.plist";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.microenh.SPE-Control";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D247F5427011EB6004657B5 /* Build configuration list for PBXProject "SPE Control" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D247F6627011EB7004657B5 /* Debug */,
+				4D247F6727011EB7004657B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D247F6827011EB7004657B5 /* Build configuration list for PBXNativeTarget "SPE Control" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D247F6927011EB7004657B5 /* Debug */,
+				4D247F6A27011EB7004657B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D247F5127011EB6004657B5 /* Project object */;
+}
